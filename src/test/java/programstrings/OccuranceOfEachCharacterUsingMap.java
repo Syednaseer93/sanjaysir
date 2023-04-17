@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class OccuranceOfEachCharacter {
+public class OccuranceOfEachCharacterUsingMap {
 
 	public static void main(String[] args) {
 		String str="abbcccccdddd";

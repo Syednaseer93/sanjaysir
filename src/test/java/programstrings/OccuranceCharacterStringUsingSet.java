@@ -1,12 +1,13 @@
 package programstrings;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
-public class OccuranceChar2 {
+public class OccuranceCharacterStringUsingSet {
 
 	public static void main(String[] args) {
 		String str="kannada";
-		HashSet<Character> hs = new HashSet<Character>();
+		LinkedHashSet<Character> hs = new LinkedHashSet<Character>();
 
 		for(int i=0;i<str.length();i++) 
 		{
