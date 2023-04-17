@@ -1,4 +1,4 @@
-package programs;
+package programstrings;
 public class ReverseEveryWordString {
 
 	public static void main(String[] args) {

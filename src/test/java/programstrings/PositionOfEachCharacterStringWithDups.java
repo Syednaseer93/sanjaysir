@@ -1,9 +1,9 @@
-package programs;
+package programstrings;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class PositionOfEachCharacterStringWithDups2 {
+public class PositionOfEachCharacterStringWithDups {
 
 	public static void main(String[] args) {
 
@@ -13,9 +13,8 @@ public class PositionOfEachCharacterStringWithDups2 {
 			hs.add(str.charAt(i));
 		}
 		for(Character ch:hs) {
-			for(int i=str.length()-1;i>=0;i--) {
+			for(int i=0;i<str.length();i++) {
 				if(ch==str.charAt(i)) {
-					//Starting from last
 					System.out.println(ch+" is present in "+(i+1)+" position");
 					break;
 				}

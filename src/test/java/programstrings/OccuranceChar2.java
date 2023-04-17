@@ -1,8 +1,8 @@
-package programs;
+package programstrings;
 
 import java.util.HashSet;
 
-public class CountDuplicateCharacters {
+public class OccuranceChar2 {
 
 	public static void main(String[] args) {
 		String str="kannada";
@@ -21,12 +21,8 @@ public class CountDuplicateCharacters {
 					count++;
 				}
 			}
-			if(count>1) {
-				System.out.println(ch+" is repeating "+count+" many times");
-			}
+			System.out.println(ch+" "+count);
 		}
 	}
 
 }
-
-
