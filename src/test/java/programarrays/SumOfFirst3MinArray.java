@@ -1,4 +1,4 @@
-package programs;
+package programarrays;
 
 public class SumOfFirst3MinArray {
 

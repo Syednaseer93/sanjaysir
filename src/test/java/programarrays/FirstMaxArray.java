@@ -1,4 +1,4 @@
-package programs;
+package programarrays;
 
 public class FirstMaxArray {
 	public static void main(String[] args) {

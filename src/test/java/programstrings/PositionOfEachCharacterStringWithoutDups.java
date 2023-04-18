@@ -3,7 +3,7 @@ package programstrings;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class PositionOfEachCharacterStringWithDups {
+public class PositionOfEachCharacterStringWithoutDups {
 
 	public static void main(String[] args) {
 

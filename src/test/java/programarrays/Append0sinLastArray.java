@@ -1,4 +1,4 @@
-package programs;
+package programarrays;
 
 public class Append0sinLastArray {
 
